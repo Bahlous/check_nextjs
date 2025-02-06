@@ -1,0 +1,40 @@
+/* Conteneur principal */
+.home-container {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Titre principal */
+  .home-container h1 {
+    font-size: 2.8rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+  }
+  
+  /* Paragraphes */
+  .home-container p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+  }
+  
+  /* Lien */
+  .home-container a {
+    color: #0070f3;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease, text-shadow 0.2s ease;
+  }
+  
+  .home-container a:hover {
+    color: #0056b3;
+    text-shadow: 0 0 5px rgba(0, 112, 243, 0.5);
+  }
